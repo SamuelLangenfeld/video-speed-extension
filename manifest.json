@@ -1,0 +1,25 @@
+{
+  "name": "Video Speed Control",
+  "description": "Control your own speed",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "sonic.png",
+      "32": "sonic.png",
+      "48": "sonic.png",
+      "128": "sonic.png"
+    }
+  },
+  "icons": {
+    "16": "sonic.png",
+    "32": "sonic.png",
+    "48": "sonic.png",
+    "128": "sonic.png"
+  }
+}
